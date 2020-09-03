@@ -12,6 +12,7 @@ sass:
 	npx node-sass src/styles/dark-theme.scss style-dark-theme.css
 	npx node-sass src/styles/light-theme.scss style-light-theme.css
 	npx node-sass src/styles/primary-theme.scss style-primary-theme.css
+	npx node-sass src/styles/nord-theme.scss style-nord-theme.css
 
 
 disable:
@@ -34,3 +35,4 @@ build_prod: schemas sass
 	zip dist.zip style-dark-theme.css
 	zip dist.zip style-light-theme.css
 	zip dist.zip style-primary-theme.css
+	zip dist.zip style-nord-theme.css
